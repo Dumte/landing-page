@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+#header{
+
+    height: 70px;
+    width: 100%;
+    background-color: #000;
+}
+ul{
+    display: flex;
+    justify-content: flex-end;    
+}
+ul li a{
+    font-size: 22px;
+    font-weight: bold;
+    color: #4989DE;
+}
+ul li a:hover{
+    color: white;
+    transition: .3s ease-in;
+}
+ul li{
+    padding: 20px;
+}
+body{
+    min-height: 100vh;
+    background: url('../img/marek.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+#header img{
+    height: 69px;
+    float: left;
+    position: relative;
+    left: 7%;
+}
+
+/* this is where i need help most. To change it to a single column view for a mobile device */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+  }
